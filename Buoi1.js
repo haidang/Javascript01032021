@@ -20,5 +20,44 @@
 
 // Co che hoisting: khi dung var viec khai bao se dat truoc
 // kiem tra gia tri
-console.log(a);
-var a = 10;
+// console.log(a);
+// var a = 10;
+
+// 6 truong hop false: 0, null, undefined, false, "", NaN
+// if ('') {
+//   console.log('Truong hop true');
+// } else {
+//   console.log('Truong hop false');
+// }
+
+// undefined
+// let a
+// console.log(a) => // undefined
+// TH2: Goi thuoc tinh khong ton tai
+
+// Object
+// const teo = {
+//   name: 'Nguyen Van Teo',
+//   age: 10,
+// };
+// console.log(teo.name);
+// console.log(teo['name']);
+
+// Array
+// const arrNumbers = [10, 11, 21, 5];
+// console.log(arrNumbers[0]);
+
+// Toan tu
+// Do uu tien 1: ++ --
+// Do uu tien 2: * /
+// Do uu tien 3: + -
+// let a = 5;
+// let b = 10;
+// let result = a++;
+// console.log(a);
+
+// Phuong thuc
+function showName(name) {
+  console.log(name);
+}
+showName('Dang');
