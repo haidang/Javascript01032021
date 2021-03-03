@@ -72,3 +72,20 @@
 //   },
 // };
 // teo.showInfo();
+
+// Vong lap
+for (i = 0; i < 10; i++) {}
+
+const arrNames = ['Teo', 'Ti', 'Hoa', 'Tuan'];
+const teo = {
+  name: 'Nguyen Van Teo',
+  age: 10,
+};
+
+for (const name of arrNames) {
+  console.log(name);
+}
+
+for (const key in teo) {
+  console.log(key);
+}
