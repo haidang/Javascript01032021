@@ -34,6 +34,7 @@
 // let a
 // console.log(a) => // undefined
 // TH2: Goi thuoc tinh khong ton tai
+// TH3: function khong return / chi co tu khoa return
 
 // Object
 // const teo = {
@@ -57,7 +58,17 @@
 // console.log(a);
 
 // Phuong thuc
-function showName(name) {
-  console.log(name);
-}
-showName('Dang');
+// function showName(name) {
+//   console.log(name);
+// }
+// showName('Dang');
+
+// Object method
+// const teo = {
+//   name: 'Nguyen Van Teo',
+//   age: 10,
+//   showInfo: function () {
+//     console.log(this.name);
+//   },
+// };
+// teo.showInfo();
